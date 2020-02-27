@@ -8,13 +8,6 @@ This repository provide a system to run the latest demo lwm2m and bootstrap serv
 Run
 ---
 
-Server:
-``
-docker run --rm -ti --name leshan-server corfr/leshan
-``
-
-Bootstrap server:
-``
-docker run --rm -ti --name leshan-bootstrap --link leshan-server corfr/leshan bootstrap
-``
-`
+- to build and run use docker compose in eliot project
+- ensure you have checked the paths in the files
+- first run docker-compose build in eliot project then you can use docker-compose scale
